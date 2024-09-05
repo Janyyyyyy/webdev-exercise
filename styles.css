@@ -1,0 +1,91 @@
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.portfolio-section, .contact-section {
+  margin-top: 50px;
+}
+
+.project-title {
+  cursor: pointer;
+}
+
+.project {
+  color: #ffffff; 
+}
+
+.project .card-body {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2ecc71; 
+  padding: 1rem;
+  border-bottom: 1px solid #27ae60; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; 
+}
+
+.navbar-nav > li > a {
+  color: #fff; 
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+  background-color: #27ae60; 
+  color: #fff; 
+}
+
+.navbar-nav > li:first-child > a {
+  border-radius: 0.5rem; 
+  padding: 0.5rem 1rem;
+}
+
+.navbar-toggle {
+  border-color: #27ae60; 
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+  background-color: #27ae60; 
+}
+
+.navbar-toggle-icon {
+  color: #fff; 
+}
+
+.navbar-nav > li:first-child > a {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav > li:first-child > a:hover, .navbar-nav > li:first-child > a:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* RGB color cycle */
+.project {
+  background-color: #ff0000; 
+  animation: rgb-cycle 10s infinite;
+}
+
+@keyframes rgb-cycle {
+  0% {
+    background-color: #ff0000; /* Red */
+  }
+  33.33% {
+    background-color: #00ff00; /* Green */
+  }
+  66.66% {
+    background-color: #0000ff; /* Blue */
+  }
+  100% {
+    background-color: #ff0000; /* Red */
+  }
+}
